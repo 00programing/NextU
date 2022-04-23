@@ -1,0 +1,18 @@
+REGISTRO DE IMPLEMENTACION DE NEXT U EN PAGINA WEB
+
+leccion 2
+Taller 1
+Actividad 1
+Ejercicio 1
+
+Leccion 3
+Taller 1 - (taller 2 en pagina)
+Taller 2 - (taller 3 en pagina)
+Taller 3 - (Taller 4 en pagina)
+Taller 4 - (Taller 5 en pagina)
+Ejercicio 1 - (Ejercicio 2)
+
+
+
+
+La forma correcta sería reemplazando < con &lt; y > con &gt;
