@@ -257,20 +257,20 @@
                 <h3>Taller 6</h3>
                 <h4>Formularios</h4>
                 <textarea name="taller6" id="tar6" cols="30" rows="10">
-<!DOCTYPE html>
+&lt;!DOCTYPE html>
 <html>
     <head>
         <title>Taller 6</title>
     </head>
     <body>
-        <form action="">
-            <fieldset>
+        &lt;form action="">
+            &lt;fieldset>
                 <legend><h1>Registro</h1></legend>
                 <p>
                     <label for="nombre">Nombre</label>
                     <input type="text" id="nombre" placeholder="Nombre"> 
                 </p>
-                <p>
+                &lt;p>
                     <label for="tipo">Tipo</label>
                     <select name="tipo" id="tipo">Tipo
                         <option value="pintor">Pintor</option>
@@ -279,18 +279,136 @@
                     </select>
                 </p>
                 <p>
-                    <label for="comentario">comentario</label>
-                    <input type="text" placeholder="comentario">
+                    <label for="comentario">comentario</label> <br>
+                    &lt;textarea name="comentario" id="" cols="30" rows="10">&lt;/textarea>
                 </p>
                 <p>
                     <label for="continuar">Continuar</label>
-                    <input type="button" value="Continuar">
+                    <input type="submit" value="Continuar">
                 </p>
             </fieldset>
         </form>
     </body>
-</html>
-                    </textarea>
+&lt;/html>
+                </textarea>
+                <p>Así se debería ver:<a href="taller6.html">Taller 6</a></p>
+                <br>
+                <h3>Taller 7</h3>
+                <h4>Mejorando el formulario pasado</h4>
+                <p>En esta ocacion estamos agregando lo siguiente:
+                    <ul>
+                        <li>Cambiar la lista de artista a seleccion multiple</li>
+                        <li>Agregar un camop radio que se llame Disponibilidad con valores de viernes y fin de semana.</li>
+                        <li>Agregar un campo para aceptar los terminos y condiciones</li>
+                    </ul>
+                </p>
+                <textarea readonly name="taller7" id="tar7" cols="85" rows="47">
+&lt;!DOCTYPE html>
+&lt;html>
+    <head>
+        &lt;title>Taller 7</title>
+    </head>
+    <body>
+        <form action="">
+            &lt;fieldset>
+                &lt;legend><h1>Registro</h1></legend>
+            &lt;<p>
+                    <label for="nombre">Nombre</label>
+                    <input type="text" id="nombre" placeholder="Nombre"> 
+            &lt;</p>
+            &lt;<p>
+                    &lt;label for="tipo">Tipo</label>
+                    &lt;select multiple="true" name="tipo" id="tipo">Tipo
+                        &lt;option value="pintor">Pintor</option>
+                        &lt;option value="musico">Musico</option>
+                        &lt;option value="actor">Actor</option>
+                    </select>
+                </p>
+                &lt;p>
+                    &lt;label for="comentario">comentario</label> <br>
+                    &lt;textarea name="comentario" id="" cols="30" rows="10">&lt;/textarea>
+                </p>
+            &lt;<p>
+                    Disponibilidad <br>
+                    &lt;input type="radio" name="disponibilidad" id="semana">
+                    &lt;label for="semana">de lunes a viernes</label><br>
+                    &lt;input type="radio" name="disponibilidad" id="fin">
+                    &lt;label for="fin">Fin de semana</label>
+                &lt;/p>
+                &lt;p>
+                    <input type="checkbox" name="terminos" id="terminos">
+                    <label for="terminos">Acepto terminos y condiciones</label>            
+                &lt;/p>
+                &lt;p>
+                    &lt;label for="continuar">Continuar</label>
+                    &lt;input type="submit" value="Continuar">
+                &lt;/p>
+            &lt;/fieldset>
+        &lt;/form>
+    </body>
+&lt;/html> 
+                                        
+                </textarea>
+                <p>Así se debería ver <a href="taller7.html">Taller 7</a></p>
+                <br>
+                <h4>Taller 8</h4>
+                <h4>Campos obligatorios</h4>
+                <p>agregar los campos obligatorios en <ul>
+                    <li>Nombre</li>
+                    <li>Tipo</li>
+                    <li>Comentario</li>
+                    <li>Acepta terminos y condiciones</li>
+                </ul>
+                </p>
+                <textarea name="" id="" cols="30" rows="10">
+&lt;!DOCTYPE html>
+&lt;html>
+    &lt;head>
+        &lt;title>Taller 7&lt;/title>
+    &lt;/head>
+    &lt;body>
+        &lt;form action="">
+            &lt;fieldset>
+                &lt;legend>&lt;h1>Registro</h1>&lt;/legend>
+                &lt;p>
+                                        &lt;label for="nombre">Nombre&lt;/label>
+                                        &lt;input type="text" id="nombre" placeholder="Nombre"> 
+                &lt;/p>
+                &lt;p>
+                    &lt;label for="tipo">Tipo&lt;/label>
+                    &lt;select multiple="true" name="tipo" id="tipo">Tipo
+                        &lt;option value="pintor">Pintor&lt;/option>
+                        &lt;option value="musico">Musico&lt;/option>
+                        &lt;option value="actor">Actor&lt;/option>
+                    &lt;/select>
+                &lt;/p>
+                                    &lt;p>
+                    &lt;label for="comentario">comentario&lt;/label> &lt;br>
+                    &lt;textarea name="comentario" id="" cols="30" rows="10">&lt;/textarea>
+                &lt;/p>
+            &lt;&lt;p>
+                                        Disponibilidad &lt;br>
+                    &lt;input type="radio" name="disponibilidad" id="semana">
+                    &lt;label for="semana">de lunes a viernes&lt;/label><br>
+                    &lt;input type="radio" name="disponibilidad" id="fin">
+                    &lt;label for="fin">Fin de semana&lt;/label>
+                &lt;/p>
+            &lt;<p>
+                    &lt;input type="checkbox" name="terminos" id="terminos">
+                    &lt;label for="terminos">Acepto terminos y condiciones&lt;/label>            
+                &lt;/p>
+            &lt;<p>
+                    &lt;label for="continuar">Continuar&lt;/label>
+                    &lt;input type="submit" value="Continuar">
+                &lt;/p>
+            &lt;/fieldset>
+        &lt;/form>
+    &lt;/body>
+&lt;/html> 
+                </textarea>
+                <p>Así se debería ver <a href="taller8.html">Taller 8</a></p>
+                <br>
+
             </article>
         </section>
     </body>
