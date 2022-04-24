@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Ejercicio 3</title>
+    </head>
+    <body>
+        <form action="">
+            <fieldset>
+                <legend><h1>Ingrese sus datos</h1></legend>
+                <p>                     
+                    <label for="nombre" required>Nombre*</label> <br>
+                    <input type="text" name="nombre" id="nombre" placeholder="Ej:Luis" required>
+                </p>
+                <p>                     
+                    <label for="email">Email*</label> <br>
+                    <input type="email" name="email" id="email" placeholder="Ej:usuario@email.com" required> 
+                </p>
+                <p>                     
+                    <label for="edad">edad</label><br>
+                    <input type="text" id="edad" placeholder="Ej: 21">
+                </p>
+                <p>
+                    <label for="recomendado">Recomentado por</label><br>
+                    <select name="recomendado" id="recomendado">
+                        <option value="google">Google</option>
+                        <option value="amigo">Amigo</option>
+                        <option value="redes_sociales">Redes sociales</option>
+                    </select>
+                </p>
+                <p>
+    <input type="checkbox" name="terminos" id="terminos" required>
+    <label for="terminos">Accepto terminos y condiciones*</label>
+                </p>
+                <P>
+                    <label for="comentarios">Comentarios*</label> <br>
+                    <textarea name="comentarios" id="comentarios" cols="30" rows="10" required></textarea>
+                </p>
+                <p>
+                    <label for="registrar"></label>
+                    <input type="submit" value="Registrar">
+                </p>
+            </fieldset>
+        </form>
+        <a href="index.html">Volver</a>
+    </body>
+</html>
+
