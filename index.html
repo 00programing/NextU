@@ -19,15 +19,17 @@
         </nav>
     </header>
     <body>
-        <section>
+        <section style="border-style: solid; box-sizing: border-box; text-align: center;">
             <article>
                 <h1>Aprendiendo a pogramar</h1><br>
                 <p><b>En esta web veras mi proceso de apredizaje por medio de talleres y ejercicios los cuales enseñan de manera practica como realizar codigo</b></p>
-                <h3>Taller 1</h3>
+                <h2 id="taller_1">Taller 1</h2>
                 <p>Esta es la estructura base, son las primeras etiquetas para empezar un codigo HTML</p>
-                <ol>
-                    <li>Escribe el codigo inicial de todo index.html</li>
-                </ol>
+                <div style="text-align: center; list-style: position inside;">
+                    <ol>
+                        <li>Escribe el codigo inicial de todo index.html</li>
+                    </ol>
+                </div>
                 <textarea readonly name="taller1" id="tar1" rows="10" cols="35">
 &lt;!DOCTYPE html>
 &lt;html>
@@ -56,7 +58,7 @@
         &lt;meta name="viewport" content="width=device-width, initial-scale=1.0">
     &lt;/head>  
                 </textarea>
-                <h3>Ejercicio 1</h3>
+                <h3 id="ejer_1">Ejercicio 1</h3>
                 <ol>
                     <li>crea una <b>carpeta</b> llamada sitio_web</li><img src="Screen Shots/1.png" alt="" width="">
                     <li>Dentro, crea un archivo index.html</li> <img src="screen shots/2.png" alt="" width="30%"><br><img src="screen shots/3.png" alt="" width="30%">
@@ -72,34 +74,36 @@
                 <br>
                 <textarea readonly name="ejercicio1" id="ejer1" cols="45" rows="10">
 &lt;DOCTYPE html>
-&lt;tml>
-    &lt;ead>
-        &lt;itle>Zapatos ABC&lt;title>
+&lt;html>
     &lt;head>
-    &lt;ody>
+        &lt;title>Zapatos ABC&lt;title>
+    &lt;head>
+    &lt;body>
         Los Zapatos ABC llegan al mercado con innovación y calidad.
     &lt;body>
-                &lt;textarea>
+&lt;html>
+                </textarea>
                 <p>Así se debería ver: <a href="ejercicio1.html">Ejercicio 1</a></p>
                 <br>
-                <h3>Taller 2</h3>
+                <h2 id="taller_2">Taller 2</h2>
                 <textarea readonly name="taller2" id="tar2" cols="57" rows="15">
 &lt;DOCTYPE html>
 &lt;html>
-        &lt;ead>
-            &lt;itle>ejemplo&lt;title>
-        &lt;head>
-        &lt;ody>
-        &lt;h1>La vida en el mar.&lt;h1>
-            &lt;2>Capítulo 1: La ventana.&lt;h2>
-            &lt;>Viendo por la ventana todas las montañas...&lt;p>
-            &lt;2>Capítulo 2: La arena.&lt;h2>
-            &lt;>La arena era muy blanca...&lt;P>
-        &lt;body>
-    &lt;html>                    
+    &lt;head>
+        &lt;title>ejemplo&lt;title>
+    &lt;head>
+    &lt;body>
+    &lt;h1>La vida en el mar.&lt;h1>
+        &lt;h2>Capítulo 1: La ventana.&lt;h2>
+        &lt;p>Viendo por la ventana todas las montañas...&lt;p>
+        &lt;h2>Capítulo 2: La arena.&lt;h2>
+        &lt;p>La arena era muy blanca...&lt;P>
+    &lt;body>
+&lt;html>                    
                 </textarea>
                 <p>Así se debería ver: <a href="taller2.html">Taller 2</a></p>
-                <h3>Taller 3</h3>
+                <br>
+                <h2 id="taller_3">Taller 3</h2>
                 <p><b>Crea un documento HTML que despliegue una receta siguiendo los siguientes aspectos:</b></p>
                 <ul>
                     <li>Título h1: La receta de la abuela.</li>
@@ -121,8 +125,9 @@
                     </ul>
                 </ul>
                 <p>Así se debería ver: <a href="taller3.html">Taller 3</a></p>
-                <h3>taller 4</h3>
-                <h4>imagenes</h4>
+                <br>
+                <h2 id="taller_4">Taller 4</h2>
+                <h3>imagenes</h3>
                 <ul>
                     <li>Titilo h1 que diga: La vida en el mar.</li>
                     <li>Subtitulo que diga: Capitulo 1: La ventana.</li>
@@ -131,11 +136,11 @@
                     <li>Enlaza la imagen</li>
                     <li>Coloca el atributo <b>alt</b> para darle un contenido alternativo</li>
                 </ul>
-                <textarea readonly name="taller4" id="tar4" cols="66" rows="14">
+                <textarea readonly name="taller4" id="tar4" cols="30" rows="10">
 &lt;!DOCTYPE html>
 &lt;html>
     &lt;head>
-        &lt;itle>ejemplo&lt;/title>
+        &lt;title>ejemplo&lt;/title>
     &lt;/head>
     &lt;body>
         &lt;h1>La vida en el mar.&lt;/h1>
@@ -145,14 +150,15 @@
 &lt;/body>
 &lt;/html>                    
                 </textarea>
-                <p>Así se debería ver: <a href="taller4.html">Taller 4</a></p>
-                <h3>Taller 5</h3>
-                <h4>Tablas</h4>
+                <p>Así se debería ver:<a href="taller4.html">Taller 4</a></p>
+                <br>
+                <h2 id="taller_5">Taller 5</h2>
+                <h3>Tablas</h3>
                 <ul>
                     <li>titulo h1 que diga: comparacion </li>
                     <li>una cabla con dos productos cualquiera</li>
                 </ul>
-                <textarea readonly name="taller 5" id="tar5" cols="45" rows="32">
+                <textarea readonly name="taller 5" id="tar5" cols="30" rows="10">
 &lt;!DOCTYPE html>
 &lt;html>
     &lt;head>
@@ -185,9 +191,9 @@
 &lt;/html>       
                 </textarea>
                 <br>
-                <p>Así se debería ver: |||<a href="taller5.html">Taller 5</a></p>            
+                <p>Así se debería ver:<a href="taller5.html">Taller 5</a></p>            
                 <br>
-                <h3>Ejercicio2</h3>
+                <h2 id="ejer_2">Ejercicio2</h2>
                 <p>Crear una web para un viaje a NY</p>
                 <ul>
                     <li>titulo h1: viajar a NY</li>
@@ -205,7 +211,7 @@
                         </ul>   
                     </li>
                 </ul>
-                <textarea name="ejercicio2" id="ejer2" cols="75" rows="47">
+                <textarea readonly name="ejercicio2" id="ejer2" cols="30" rows="10">
 &lt;!DOCTYPE html>
 &lt;html>
     &lt;head>
@@ -254,9 +260,9 @@
                 </textarea>
                 <p>Así se debería ver: <a href="Ejercicio2.html">Ejercicio 2</a></p>
                 <br>
-                <h3>Taller 6</h3>
-                <h4>Formularios</h4>
-                <textarea name="taller6" id="tar6" cols="30" rows="10">
+                <h2 id="taller_6">Taller 6</h2>
+                <h3>Formularios</h3>
+                <textarea readonly name="taller6" id="tar6" cols="30" rows="10">
 &lt;!DOCTYPE html>
 &lt;html>
     &lt;head>
@@ -293,8 +299,8 @@
                 </textarea>
                 <p>Así se debería ver:<a href="taller6.html">Taller 6</a></p>
                 <br>
-                <h3>Taller 7</h3>
-                <h4>Mejorando el formulario pasado</h4>
+                <h2 id="taller_7">Taller 7</h2>
+                <h3>Mejorando el formulario pasado</h3>
                 <p>En esta ocacion estamos agregando lo siguiente:
                     <ul>
                         <li>Cambiar la lista de artista a seleccion multiple</li>
@@ -302,7 +308,7 @@
                         <li>Agregar un campo para aceptar los terminos y condiciones</li>
                     </ul>
                 </p>
-                <textarea readonly name="taller7" id="tar7" cols="85" rows="47">
+                <textarea readonly name="taller7" id="tar7" cols="30" rows="10">
 &lt;!DOCTYPE html>
 &lt;html>
     <head>
@@ -351,8 +357,8 @@
                 </textarea>
                 <p>Así se debería ver <a href="taller7.html">Taller 7</a></p>
                 <br>
-                <h4>Taller 8</h4>
-                <h4>Campos obligatorios</h4>
+                <h2 id="taller_8">Taller 8</h2>
+                <h3>Campos obligatorios</h3>
                 <p>agregar los campos obligatorios en <ul>
                     <li>Nombre</li>
                     <li>Tipo</li>
@@ -408,10 +414,10 @@
                 </textarea>
                 <p>Así se debería ver <a href="taller8.html">Taller 8</a></p>
                 <br>
-                <h4>Ejercicio 3</h4>
+                <h2 id="ejer_3">Ejercicio 3</h2>
                 <h5></h5>
                 <p></p>
-                <textarea name="ejercicio3" id="ejer3" cols="115" rows="38">
+                <textarea name="ejercicio3" id="ejer3" cols="30" rows="10">
 &lt;!DOCTYPE html>
 &lt;html>
     &lt;head>
@@ -460,17 +466,19 @@
                 <br>
                 <p>Así se debería ver <a href="ejercicio3.html">Ejercicio 3</a></p>
                 <br>
-                <h3>Ejercicio 4</h3>
-                <h4>Enlaces HTML</h4>
+                <h2 id="ejer_4">Ejercicio 4</h2>
+                <h3>Enlaces HTML</h3>
                 <p>Creaccion de enlaces</p>
-                <textarea name="" id="" cols="30" rows="10">
+                <textarea readonly name="" id="" cols="30" rows="10">
 &lt;!DOCTYPE hmtl>
 &lt;html>
     &lt;head>
         &lt;title>Ejercicio 4&lt;/title>
-&lt;</head>
-    &lt;body>
+    &lt;/head>
+    &lt;header>
         &lt;h1> &lt;img src="imagenes/concert_logo.png" alt="logo concierto"> Tu concierto&lt;/h1>
+    &lt;/header>
+    &lt;body>
         &lt;br>
         &lt;p>Bienvenido a este blog de conciertos&lt;/p>
         &lt;img src="http://4everstatic.com/imagenes/850xX/arte/concierto,-multitud-217888.jpg" alt="concierto foto">
@@ -488,45 +496,89 @@
 &lt;/html>
 
                 </textarea>
-                <p id="ejer4">Así se debería ver <a href="ejercicio 4/ejercicio4.html">Ejercicio 4</a></p>
+                <p>Así se debería ver <a href="ejercicio4.html">Ejercicio 4</a></p>
             </article>
-            <h3>Ejercico 5</h3>
-            <textarea name="" id="" cols="30" rows="10">
-<!DOCTYPE html>
-<html>
-    <header>
-        <title>Recetas.com</title>
-        <h1>Recetas.com</h1>
-        <img src="imagenes/recetas.jpg" alt="recetas">
-    </header>
-    <body>
-        <h1>Nuevas recetas</h1>
-        <h2>**Arroz criollo**</h2>
-        <p>Tiempo de preparación <strong>45min</strong>, 4 porciones </p>
-        <ul> <strong>Ingredientes</strong>
-            <li>Salsa de tomate</li>
-            <li>2 cucharadas de aceite 14gr</li>
-            <li>1 cebolla picada 45gr</li>
-            <li>2 dientes de ajo picados bien fino 3gr</li>
-            <li>1 pimenton rojo picado en cuadritos, 60gr</li>
-            <li>1 taza de arroz blanco 225gr </li>
-            <li>1 taza de maiz desgranado 79gr</li>
-            <li>150gr de pechuga de pollo cocinado y desmechado</li>
-            <li>Sal a gusto</li>
-        </ul>
-        <ul> <strong>Preparación</strong>
-            <li>Calentar en una olla el aceite, sofreír la cebolla junto con el ajo, el pimentín por 3 minutos.</li>
-            <li>Adicionar el arroz y continua sofriendo para que se dore.
-            </li>
-            <li>Agregar el pollo, el maíz desgranado y las verduras.
-            </li>
-            <li>Mezclar todo, rectificar sal y dejar cocinar hasta que seque</li>
-            <li></li>
-        </ul>
-    </body>
-</html>
+            <h2 id="ejer_5">Ejercico 5</h2>
+            <textarea readonly name="" id="" cols="30" rows="10">
+&lt;!DOCTYPE html>
+&lt;html>
+    &lt;head>
+        &lt;title>Recetas.com&lt;/title>
+    &lt;/head>
+    &lt;header>
+        &lt;h1>Recetas.com&lt;/h1>
+        &lt;img src="imagenes/recetas.jpg" alt="recetas">
+    &lt;/header>
+    &lt;body>
+        &lt;h1>Nuevas recetas&lt;/h1>
+        &lt;h2>**Arroz criollo**&lt;/h2>
+        &lt;p>Tiempo de preparación &lt;strong>45min&lt;/strong>, 4 porciones &lt;/p>
+        &lt;h3>Ingredientes&lt;/h3>
+        &lt;ul>
+        &lt;li>Salsa de tomate&lt;/li>
+            &lt;li>2 cucharadas de aceite 14gr&lt;/li>
+            &lt;li>1 cebolla picada 45gr&lt;/li>
+            &lt;li>2 dientes de ajo picados bien fino 3gr&lt;/li>
+            &lt;li>1 pimenton rojo picado en cuadritos, 60gr&lt;/li>
+            &lt;li>1 taza de arroz blanco 225gr &lt;/li>
+            &lt;li>1 taza de maiz desgranado 79gr&lt;/li>
+            &lt;li>150gr de pechuga de pollo cocinado y desmechado&lt;/li>
+            &lt;li>Sal a gusto&lt;/li>
+        &lt;/ul>
+        &lt;h3>Preparación&lt;/h3>
+    &lt;<ul>
+            &lt;li>Calentar en una olla el aceite, sofreír la cebolla junto con el ajo, el pimentín por 3 minutos.</li>
+            &lt;li>Adicionar el arroz y continua sofriendo para que se dore.
+            &lt;/li>
+            &lt;li>Agregar el pollo, el maíz desgranado y las verduras.
+            &lt;/li>
+            &lt;li>Mezclar todo, rectificar sal y dejar cocinar hasta que seque&lt;/li>
+            &lt;li>Bajar el fuego, tapar la olla y continuar la cocción por 25 minutos más.&lt;/li>
+            &lt;li>Esta rica receta fue proporcionada por María Paula.
+            &lt;/li>
+
+    &lt;/ul>
+        &lt;h2>**Arroz con leche**&lt;/h2>
+        &lt;p>Tiempo de preparación &lt;trong>30 minutos&lt;/strong> Numero de porciones &lt;strong>8&lt;/strong>&lt;/p>
+        &lt;h3>Ingredientes&lt;/h3>
+        &lt;ul>
+            &lt;li>215 grs de Arroz
+            &lt;/li>
+            &lt;li>2 litros de leche
+            &lt;/li>
+            &lt;li>215 grs de Azúcar
+            &lt;/li>
+            &lt;li>1 rama de canela
+            &lt;/li>
+            &lt;li>1 cucharada de mantequilla
+            &lt;/li>
+            &lt;li>Sal al gusto
+            &lt;/li>
+        &lt;/ul>
+        &lt;h3>preparación&lt;/h3>
+        &lt;ul&lt;
+            &lt;li>Calentar la leche y agregar el arroz
+            &lt;/li>
+            &lt;li>Adicionar el azúcar y la canela
+            &lt;/li>
+            &lt;li>Agregar la mantequilla y cocinar a fuego lento tapado.
+            &lt;/li>
+            &lt;li>Cocinar por 25 minutos aproximadamente o hasta que este blando el arroz.
+            &lt;/li>
+            &lt;li>Refrigerar por 3 horas y servir frío.
+            &lt;/li>
+        &lt;/ul>
+        &lt;p>Esta fácil receta es una contribución de Janeth Patricia.
+        &lt;/p>
+    &lt;/body>
+    &lt;footer>
+        &lt;p>Derechos Reservados&lt;/p>
+    &lt;/footer>
+&lt;/html> 
             </textarea>
+            <p>Así se debería ver: <a href="ejercicio5.html">Ejercicio 5</a></p>
         </section>
+
     </body>
 </html>
 &lt;
