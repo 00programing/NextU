@@ -1,0 +1,13 @@
+* {
+    font-family: cursive, sans-serif;
+    font-weight: 100;
+}
+
+.nav__responsive-ul {
+    display: none;
+    
+}
+.nav__ul {
+    background-color: bisque;
+    margin: 0%;
+}
