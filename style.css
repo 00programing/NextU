@@ -1,14 +1,31 @@
+@import url('https://fonts.googleapis.com/css2?family=Titan+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Permanent+Marker&family=Titan+One&display=swap');
 * {
-    font-family: cursive, sans-serif;
-    font-weight: 100;
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    font-family: 'Permanent Marker', 'Titan One', cursive;
 }
-
-.nav__responsive-ul {
-    display: none;
+body {
+    background-color: lightgray;
+}
+header {
     
 }
-.nav__ul {
-    background-color: bisque;
-    margin: 0%;
+
+.nav {
+    display: flex;
+    justify-content: space-between;
+    align-items:center ;
+    width: 100vw;
+    height: 60px;
+    background-color: rgb(182, 182, 182);
+    border-bottom: 1px solid white;
+    box-shadow: 5px 0 10px rgba(0, 0, 0, .7);
 }
 
+.nav__items {
+    display:flex ;
+    list-style: none;
+    margin-right: 30px;
+}
